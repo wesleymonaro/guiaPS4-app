@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "516964035563",
+    "firebase_url": "https://guiaps4-27025.firebaseio.com",
+    "project_id": "guiaps4-27025",
+    "storage_bucket": "guiaps4-27025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516964035563:android:dabf05c316df9d86",
+        "android_client_info": {
+          "package_name": "br.com.guiaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516964035563-27ev34cp2ikof4ckkdkt1s13t63e3p6d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "516964035563-27ev34cp2ikof4ckkdkt1s13t63e3p6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHaWeMXZWtJYnFXkO9AzmYP5C6K2-c2_M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
