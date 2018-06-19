@@ -12,6 +12,8 @@ import {
   Platform
 } from 'react-native';
 
+import { Button } from 'react-native-elements';
+
 const primary = 'white';
 const secondary = 'blue';
 const textColor = 'black'
@@ -97,6 +99,10 @@ class Home extends Component {
     return (
       <View style={styles.container}>
         <Text>Teste</Text>
+        <Button
+          raised
+          icon={{ name: 'cached' }}
+          title='BUTTON WITH ICON' />
       </View>
     );
   }
@@ -104,11 +110,11 @@ class Home extends Component {
 
 
 const mapStateToProps = state => ({
-  
+
 });
 
 const mapDispatchToProps = {
-  
+
 };
 
 const HomeWithProps = withNavigation(connect(mapStateToProps, mapDispatchToProps)(Home));
